@@ -1,14 +1,16 @@
-# IssueMigratorPro (IMP) - Erik Bethke 2024
+# IssueMigratorPro (IMP)
+### Erik Bethke 2024
 Issue Migrator Pro is a very well equipped script to move and close issues in GitHub repos - very handy when you are splitting up repos and projects
 
-TL;DR
-```node issueissueMigratorPro from:<fromRepo> target:<toRepo> <create|purge> <label> not:<label> <live>```
-- **fromRepo**
-- **toRepo**
+TL;DR:
+- ```node issueissueMigratorPro from:<fromRepo> target:<toRepo> <create|purge> <label> not:<label> <live>```
+- **fromRepo** - Repo you want to transfer issues from
+- **toRepo** - Repo that you want to create new issues in or where you want to close issues
 - **create** - creates new issues in the targetRepo and closes that issue in the fromRepo
 - **purge** - only closes issues in the targetRepo
 - **label** - the labels you are specifically filtering FOR
 - **not:** - the labels you are explicitly filtering out
+- **live** - take the saftey off and fire for effect
 
 ```
                       
