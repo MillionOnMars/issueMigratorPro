@@ -1,17 +1,17 @@
 # issueMigratorPro
-Issue Migrator Pro is a very well (typescript) script to move and close issues in GitHub repos - very handy when you are splitting up repos and projects
+Issue Migrator Pro is a very well equipped script to move and close issues in GitHub repos - very handy when you are splitting up repos and projects
 
 # MIT License - Party!
 
 # Create a .gitignore
-```*.js```
-```.env``` DO NOT CHECK IN YOUR PAT KEY TO GITHUB
-```node_modules```
+- ```*.js```
+- ```.env``` DO NOT CHECK IN YOUR PAT KEY TO GITHUB
+- ```node_modules```
 
 ## Setup your .env
 1. Create a .env file in the same directory
-```GITHUB_ORG=<YourOrgInQuotes>```
-```GITHUB_TOKEN=<YourPATKey>```
+- ```GITHUB_ORG=<YourOrgInQuotes>```
+- ```GITHUB_TOKEN=<YourPATKey>```
 
 
 ## Building
@@ -22,8 +22,8 @@ To build
 ```tsc issueissueMigratorPro```
 
 ## To Run
-```node issueissueMigratorPro```
+```node issueissueMigratorPro from:<fromRepo> target:<toRepo> <create|purge> <live>```
 
 ### Optional
-```npm install -g ts-node``` If you would like to just run with ```ts-node issueMigratorPro from:<from> target:<to> create```
+```npm install -g ts-node``` If you would like to just run with ```ts-node issueMigratorPro from:<fromRepo> target:<toRepo> <create|purge> <live>```
 instead of doing it as two steps:
