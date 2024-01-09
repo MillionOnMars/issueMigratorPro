@@ -1,6 +1,7 @@
 # IssueMigratorPro (IMP) - Erik Bethke 2024
 Issue Migrator Pro is a very well equipped script to move and close issues in GitHub repos - very handy when you are splitting up repos and projects
 
+```
                       
 ██╗███╗   ███╗██████╗       ,      ,
 ██║████╗ ████║██╔══██╗     /(.-""-.)\
@@ -13,6 +14,7 @@ Issue Migrator Pro is a very well equipped script to move and close issues in Gi
                        ___\ \|--|/ /___
                      /`    \      /    `\
                     /       '----'       \
+```
 
 IMP is designed to seamlessly manage and migrate GitHub issues across different repositories
 within the same organization. It enables easy transfer and closing of issues, with support for 
