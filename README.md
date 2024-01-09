@@ -24,5 +24,6 @@ Issue Migrator Pro is a very well equipped script to move and close issues in Gi
 - ```node issueissueMigratorPro from:<fromRepo> target:<toRepo> <create|purge> <live>```
 
 ### Optional
-- ```npm install -g ts-node``` If you would like to just run with ```ts-node issueMigratorPro from:<fromRepo> target:<toRepo> <create|purge> <live>```
-instead of doing it as two steps:
+- ```npm install -g ts-node``` If you would like to just run with:
+- ```ts-node issueMigratorPro from:<fromRepo> target:<toRepo> <create|purge> <live>```
+- instead of doing it as two steps (tsc and node)
