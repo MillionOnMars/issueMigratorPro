@@ -22,23 +22,23 @@
  * 
  * 1. Purge Issues (Dry Run by default):
  *    - To preview closing all issues in a specific repository:
- *      node script.js purge target:<targetRepo>
+ *      node issueMigratorPro.js purge target:<targetRepo>
  *    - To actually close all issues:
- *      node script.js purge target:<targetRepo> live
+ *      node issueMigratorPro.js purge target:<targetRepo> live
  *    - To preview closing issues with a specific label:
- *      node script.js purge target:<targetRepo> <label>
+ *      node issueMigratorPro.js purge target:<targetRepo> <label>
  *    - To actually close issues with a specific label:
- *      node script.js purge target:<targetRepo> <label> live
+ *      node issueMigratorPro.js purge target:<targetRepo> <label> live
  * 
  * 2. Transfer Issues (Dry Run by default):
  *    - To preview transferring all issues from one repo to another:
- *      node script.js from:<fromRepo> target:<targetRepo> transfer
+ *      node issueMigratorPro.js from:<fromRepo> target:<targetRepo> transfer
  *    - To actually transfer all issues:
- *      node script.js from:<fromRepo> target:<targetRepo> transfer live
+ *      node issueMigratorPro.js from:<fromRepo> target:<targetRepo> transfer live
  *    - To preview transferring issues with a specific label:
- *      node script.js from:<fromRepo> target:<targetRepo> <label> transfer
+ *      node issueMigratorPro.js from:<fromRepo> target:<targetRepo> <label> transfer
  *    - To actually transfer issues with a specific label:
- *      node script.js from:<fromRepo> target:<targetRepo> <label> transfer live
+ *      node issueMigratorPro.js from:<fromRepo> target:<targetRepo> <label> transfer live
  * 
  * Environment Variables:
  *    - GITHUB_TOKEN: Personal access token for GitHub API authentication.
@@ -50,9 +50,9 @@
  *    - The script includes a delay between actions to comply with GitHub's rate limits.
  * 
  * Examples:
- *    - node script.js purge target:myRepo live
- *    - node script.js from:sourceRepo target:destRepo bug transfer
- *    - node script.js from:sourceRepo target:destRepo transfer live
+ *    - node issueMigratorPro.js purge target:myRepo live
+ *    - node issueMigratorPro.js from:sourceRepo target:destRepo bug transfer
+ *    - node issueMigratorPro.js from:sourceRepo target:destRepo transfer live
  */
 
 import axios from 'axios';
